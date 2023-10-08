@@ -15,6 +15,22 @@
         <junit.platform.version>1.8.1</junit.platform.version>
     </properties>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/diiir727/effective-xml</url>
+        </repository>
+    </distributionManagement>
+
 
     <dependencies>
         <dependency>
